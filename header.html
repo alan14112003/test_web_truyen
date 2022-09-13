@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/08c104de7d.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="./img/icon.png">
+    <title>Web truyện</title>
+</head>
+
+<body>
+    <header class="desktop">
+        <section class="header__top">
+            <div class="container">
+                <ul class="header__top__nav">
+                    <li class="header__top__logo">
+                        <a href="">
+                            <img src="./img/logo.png" alt="">
+                        </a>
+                    </li>
+                    <li class="header__top__dark_mode dark__btn">
+                        <i class="fa-regular fa-lightbulb"></i>
+                    </li>
+                    <li class="header__top__dark_mode light__btn">
+                        <i class="fa-sharp fa-solid fa-lightbulb"></i>
+                    </li>
+                    <li class="header__top__search">
+                        <form action="" method="get">
+                            <input type="search" placeholder="nhập truyện cần tìm">
+                            <button>
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </form>
+                    </li>
+                    <li class="header__top__info header__top__info--close">
+                        <button class="top__info__register">Đăng ký</button>
+                        <button class="top__info__login">Đăng nhập</button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="header__bottom">
+            <div class="container">
+                <ul class="header__bottom__nav">
+                    <li><a href="">Trang chủ</a></li>
+                    <li>
+                        <a href="#">Thể loại <i class="fa-solid fa-caret-down"></i></a>
+                        <nav class="header__bottom__subnav">
+                    <li><a href=""> Ngôn Tình</a></li>
+                    <li><a href=""> Xuyên Không</a></li>
+                    <li><a href=""> Năn nỉ</a></li>
+                    <li><a href=""> Sống lại</a></li>
+                    <li><a href=""> Trọng sinh</a></li>
+                    </nav>
+                    </li>
+                    <li><a href="#">Xếp hạng <i class="fa-solid fa-caret-down"></i></a></li>
+                    <li><a href="">Tìm truyện</a></li>
+                    <li><a href="">Lịch sử</a></li>
+                    <li><a href="">Theo dõi</a></li>
+                    <li><a href="">Tin tức</a></li>
+                </ul>
+            </div>
+        </section>
+    </header>
+    <header class="mobile">
+        <section class="header__top">
+            <div class="container">
+                <ul class="header__top__nav">
+                    <li class="header__top__logo">
+                        <a href="">
+                            <img src="./img/icon.png" alt="">
+                        </a>
+                    </li>
+                    <li class="header__top__dark_mode dark__btn">
+                        <i class="fa-regular fa-lightbulb"></i>
+                    </li>
+                    <li class="header__top__dark_mode light__btn">
+                        <i class="fa-sharp fa-solid fa-lightbulb"></i>
+                    </li>
+                    <li class="header__top__info header__top__info--close">
+                        <button class="top__info__register">Đăng ký</button>
+                        <button class="top__info__login">Đăng nhập</button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="header__middle">
+            <div class="header__middle__search">
+                <form action="" method="get">
+                    <input type="search" placeholder="nhập truyện cần tìm">
+                    <button>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </div>
+        </section>
+        <section class="header__bottom">
+            <input type="checkbox" id="showMenuBarCheck">
+            <div class="index">
+                <a href="">Trang chủ</a>
+                <label for="showMenuBarCheck" class="bars nav__btn">
+                    <i class="fa-solid fa-list"></i>
+                </label>
+                <label for="showMenuBarCheck" class="close nav__btn">
+                    <i class="fa-solid fa-rectangle-xmark"></i>
+                </label>
+            </div>
+            <div class="container">
+                <ul class="header__bottom__nav">
+                    <li>
+                        <a class="show__subnav__btn">Thể loại
+                            <i class="fa-solid fa-caret-down"></i>
+                            <i class="fa-solid fa-caret-up"></i>
+                        </a>
+                        <ul class="header__bottom__subnav">
+                            <li><a href=""> Ngôn Tình</a></li>
+                            <li><a href=""> Xuyên Không</a></li>
+                            <li><a href=""> Năn nỉ</a></li>
+                            <li><a href=""> Sống lại</a></li>
+                            <li><a href=""> Trọng sinh</a></li>
+                            <li><a href=""> Trọng sinh</a></li>
+                            <li><a href=""> Trọng sinh</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="show__subnav__btn">Xếp hạng
+                            <i class="fa-solid fa-caret-down"></i>
+                            <i class="fa-solid fa-caret-up"></i>
+                        </a>
+                    </li>
+                    <li><a href="">Tìm truyện</a></li>
+                    <li><a href="">Lịch sử</a></li>
+                    <li><a href="">Theo dõi</a></li>
+                    <li><a href="">Tin tức</a></li>
+                </ul>
+            </div>
+        </section>
+    </header>
+    <section class="header__form header__form--login">
+        <div class="header__form__bg">
+            <div class="container">
+                <div class="header__form__box">
+                    <div class="form__box__container">
+                        <form action="">
+                            <div class="form__logo">
+                                <img src="./img/logo.png" alt="">
+                                <div class="form__close">
+                                    <i class="fa-regular fa-circle-xmark"></i>
+                                </div>
+                            </div>
+                            <div class="form__input">
+                                <input type="text" placeholder="Nhập email">
+                            </div>
+                            <div class="form__input">
+                                <input type="text" placeholder="Nhập mật khẩu">
+                            </div>
+                            <div class="form__button">
+                                <button>Đăng nhập</button>
+                            </div>
+                            <p class="text">Nếu bạn chưa có tài khoản: <a href="">Đăng ký</a></p>
+                            <p class="text text--center">hoặc</p>
+                            <p class="text">Đăng nhập với:</p>
+                            <div class="form__more">
+                                <div class="form__facebook">
+                                    <a href="">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </div>
+                                <div class="form__google">
+                                    <a href="">
+                                        <i class="fa-brands fa-google"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./script/script.js"></script>
+    <link rel="stylesheet" href="./css/index.css">
+    <main>
+    <div class="container">
+        <section class="banner">
+            <div class="banner__item banner__left__top">
+                <img src="https://i.truyenvua.xyz/slider/290x191/slider_1559213484.jpg?gf=hdfgdfg&mobile=2" alt="">
+            </div>
+            <div class="banner__item banner__left__bottom">
+                <img src="https://i.truyenvua.xyz/slider/290x191/slider_1560493497.jpg?gf=hdfgdfg&mobile=2" alt="">
+            </div>
+            <div class="banner__item banner__right__top">
+                <img src="https://i.truyenvua.xyz/slider/290x191/slider_1567830171.jpg?gf=hdfgdfg&mobile=2" alt="">
+            </div>
+            <div class="banner__item banner__right__bottom">
+                <img src="https://i.truyenvua.xyz/slider/290x191/slider_1561609693.jpg?gf=hdfgdfg&mobile=2" alt="">
+            </div>
+            <div class="banner__item banner__center">
+                <img src="https://i.truyenvua.xyz/slider/583x386/slider_1560573084.jpg?gf=hdfgdfg&mobile=2" alt="">
+            </div>
+        </section>
+    </div>
+    </main>
+    <footer>
+        <div class="container">
+            <section class="footer">
+                <section class="footer__left">
+                    <div class="logo">
+                        <img src="./img/logo.png" alt="">
+                    </div>
+                    <div class="footer__left__contacts">
+                        Liên hệ với chúng tôi thông qua:
+                        <span class="contacts__face_book">
+                            <a href="">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </span>
+                    </div>
+                    <div class="copyright">
+                        Copyright © web truyện
+                    </div>
+                </section>
+                <section class="footer__right">
+                    <ul class="footer__right__links__box">
+                        <li class="footer__right__links__box__item">
+                            <a href=""> Chuyển sinh </a>
+                        </li>
+                        <li class="footer__right__links__box__item">
+                            <a href=""> Romance </a>
+                        </li>
+                        <li class="footer__right__links__box__item">
+                            <a href=""> Ngôn tình </a>
+                        </li>
+                        <li class="footer__right__links__box__item">
+                            <a href=""> Cổ đại </a>
+                        </li>
+                        <li class="footer__right__links__box__item">
+                            <a href=""> xuyên không </a>
+                        </li>
+                        <li class="footer__right__links__box__item">
+                            <a href=""> Fantasy </a>
+                        </li>
+                    </ul>
+                    <p class="footer__right__content">
+                        Mọi thông tin và hình ảnh trên website đều được sưu tầm trên Internet. Chúng tôi không sở hữu
+                        hay chịu
+                        trách nhiệm bất kỳ thông tin nào trên web này. Nếu làm ảnh hưởng đến cá nhân hay tổ chức nào,
+                        khi được
+                        yêu cầu, chúng tôi sẽ xem xét và gỡ bỏ ngay lập tức.
+                    </p>
+                </section>
+            </section>
+        </div>
+    </footer>
+
+</body>
+
+</html>
