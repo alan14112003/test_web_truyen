@@ -30,10 +30,10 @@ const run = () => {
     }
     // ----------Dark Mode 
     function setDark() {
-        localStorage.getItem('darkMode') == 'dark' ? body.classList.add('dark') : body.classList.remove('dark')
+        localStorage.getItem('webTruyenDarkMode') == 'dark' ? body.classList.add('dark') : body.classList.remove('dark')
     }
     function darkModeHandler() {
-        localStorage.getItem('darkMode') == 'dark' ? localStorage.setItem('darkMode', 'light') : localStorage.setItem('darkMode', 'dark')
+        localStorage.getItem('webTruyenDarkMode') == 'dark' ? localStorage.setItem('webTruyenDarkMode', 'light') : localStorage.setItem('webTruyenDarkMode', 'dark')
         setDark()
     }
     // ----------Show SubNav

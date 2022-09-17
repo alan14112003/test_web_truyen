@@ -10,6 +10,7 @@ main {
     "h1 h2 h2 h3"
     "h4 h2 h2 h5";
     margin: 36px 0;
+    padding: 0 24px;
 }
 .banner__item img{
     width: 100%;
@@ -37,9 +38,13 @@ main {
     background-color: red;
 }
 
-
-@media screen and (max-width: 64em){
+@media screen and (max-width: 63.9375em){
     main {
         margin-top: 210px;
+    }
+}
+@media screen and (max-width: 47.9375em){
+    .banner {
+        display: none;
     }
 }

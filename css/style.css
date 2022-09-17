@@ -32,7 +32,9 @@ header {
     z-index: 100;
     background-color: #fff;
 }
-
+body.dark header {
+    background-color: var(--body-dark);
+}
 .container {
     max-width: 1200px;
     margin: auto;
@@ -439,7 +441,7 @@ body.dark .footer__left .copyright {
     margin: 8px;
 }
 /* giao diện tablet và mobile */
-@media screen and (max-width: 64em){
+@media screen and (max-width: 63.9375em){
     .desktop {
         display: none;
     }
